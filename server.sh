@@ -17,7 +17,6 @@ apt-get dist-upgrade -y
 
 ###INSTALL PACKAGES###
 apt-get install exfat-fuse exfat-utils -y
-apt-get install vlc -y
 apt-get install rar unrar p7zip-full p7zip-rar -y
 apt-get install inetutils-traceroute -y
 apt-get install htop -y

@@ -1,7 +1,6 @@
 #!/bin/bash
-
 ###BASIC SOFTWARE FOR THIS SCRIPT###
-apt-get update
+apt-get update --allow-releaseinfo-change
 apt-get install apt-transport-https -y
 apt-get install curl -y
 apt-get install git -y
@@ -62,4 +61,14 @@ dpkg -i chrome_download.deb
 wget -O - https://dbeaver.io/debs/dbeaver.gpg.key | apt-key add -
 echo "deb https://dbeaver.io/debs/dbeaver-ce /" | tee /etc/apt/sources.list.d/dbeaver.list
 apt-get update && apt-get install dbeaver-ce -y
+
+###REMMINA###
+apt-get install remmina -y
+
+###UPDATE ALL AND FIX THINGS###
+apt-get install -f -y
+apt-get update --allow-releaseinfo-change
+apt-get upgrade -y
+apt-get dist-upgrade -y
+
 

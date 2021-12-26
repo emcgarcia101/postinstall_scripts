@@ -38,8 +38,9 @@ apt-get install lm-sensors -y
 apt-get install speedtest-cli -y
 apt-get install neofetch -y
 apt-get install nload -y
-apt-get install deepin-terminal -y
-
+apt-get install iperf -y
+apt-get install iperf3 -y
+apt-get install openssh-server -y
 
 ###VIRTUALBOX###
 apt-get install virtualbox virtualbox-qt -y
@@ -65,6 +66,12 @@ apt-get update && apt-get install dbeaver-ce -y
 
 ###REMMINA###
 apt-get install remmina -y
+
+###ETCHER###
+echo "deb https://deb.etcher.io stable etcher" | tee /etc/apt/sources.list.d/balena-etcher.list
+apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 379CE192D401AB61
+apt-get update
+apt-get install balena-etcher-electron -y
 
 ###UPDATE ALL AND FIX THINGS###
 apt-get install -f -y

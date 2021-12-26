@@ -17,16 +17,21 @@ apt-get dist-upgrade -y
 
 ###INSTALL PACKAGES###
 apt-get install exfat-fuse exfat-utils -y
-apt-get install inetutils-traceroute -y
+apt-get install vlc -y
 apt-get install rar unrar p7zip-full p7zip-rar -y
+apt-get install inetutils-traceroute -y
 apt-get install htop -y
 apt-get install nmap -y
+apt-get install tcpdump -y
+apt-get install tshark -y
 apt-get install ncdu -y
 apt-get install lm-sensors -y
 apt-get install speedtest-cli -y
 apt-get install neofetch -y
 apt-get install nload -y
-apt-get install tcpdump -y
+apt-get install iperf -y
+apt-get install iperf3 -y
+apt-get install openssh-server -y
 
 ###UPDATE ALL AND FIX THINGS###
 apt-get install -f -y

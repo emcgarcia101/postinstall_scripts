@@ -38,6 +38,7 @@ apt-get install lm-sensors -y
 apt-get install speedtest-cli -y
 apt-get install neofetch -y
 apt-get install nload -y
+apt-get install deepin-terminal -y
 
 
 ###VIRTUALBOX###

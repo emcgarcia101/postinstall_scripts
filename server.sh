@@ -5,6 +5,7 @@ apt-get update --allow-releaseinfo-change
 apt-get install apt-transport-https -y
 apt-get install curl -y
 apt-get install git -y
+apt-get install build-essential dkms -y
 
 ###ADD REPOSITORIES TO UBUNTU BASE DISTROS###
 add-apt-repository universe -y

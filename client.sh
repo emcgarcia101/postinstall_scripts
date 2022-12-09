@@ -75,9 +75,7 @@ apt update && apt install dbeaver-ce -y
 apt install remmina remmina-common remmina-plugin-rdp remmina-plugin-secret remmina-plugin-vnc -y
 
 ###SPEEDTEST###
-apt install curl -y
-curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
-apt install speedtest -y
+apt install speedtest-cli -y
 
 ###UPDATE ALL AND FIX THINGS###
 apt install -f -y

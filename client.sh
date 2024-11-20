@@ -16,31 +16,10 @@ apt update
 apt dist-upgrade -y
 
 ###INSTALL PACKAGES###
-apt install exfat-fuse exfat-utils -y
-apt install gparted -y
-apt install qbittorrent -y
-apt install bleachbit -y
-apt install ubuntu-restricted-extras -y
-apt install vlc -y
-apt install rar unrar p7zip-full p7zip-rar -y
-apt install inetutils-traceroute -y
-apt install htop -y
-apt install aptitude build-essential most cups-pdf poppler-utils -y
-apt install nmap -y
-apt install tcpdump -y
-apt install tshark -y
-apt install wireshark -y
-apt install zenmap -y
-apt install network-manager-openvpn-gnome -y
-apt install ncdu -y
-apt install gnome-tweak-tool -y
-apt install xsensors -y
-apt install lm-sensors -y
-apt install neofetch -y
-apt install nload -y
-apt install iperf -y
-apt install iperf3 -y
-apt install openssh-server -y
+apt install -y exfat-fuse exfat-utils gparted qbittorrent bleachbit ubuntu-restricted-extras vlc rar unrar p7zip-full p7zip-rar inetutils-traceroute htop aptitude build-essential most cups-pdf poppler-utils nmap tcpdump tshark wireshark zenmap network-manager-openvpn-gnome ncdu gnome-tweak-tool xsensors lm-sensors neofetch nload iperf iperf3 openssh-server deepin-terminal
+
+# Register deepin terminal
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/deepin-terminal 50
 
 ###VIRTUALBOX###
 apt install virtualbox virtualbox-qt -y

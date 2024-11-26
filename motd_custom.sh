@@ -40,4 +40,4 @@ echo -e "${CYAN}Uptime:${RESET} $UPTIME"
 echo -e "${CYAN}Load Average:${RESET} $LOAD"
 
 echo -e "${CYAN}Memory:${RESET} $(create_bar $MEM_PERCENT) (${MEM_USED}M used, ${MEM_FREE}M free)"
-echo -e "${CYAN}Disk Space:${RESET} $(create_bar ${DISK_PERCENT%\%}) (${DISK_INFO})"/etc/update-motd.d/99-custom
+echo -e "${CYAN}Disk Space:${RESET} $(create_bar ${DISK_PERCENT%\%}) (${DISK_INFO})"

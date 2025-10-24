@@ -16,7 +16,7 @@ apt update
 apt dist-upgrade -y
 
 ###INSTALL PACKAGES###
-apt install -y exfat-fuse exfat-utils gparted qbittorrent bleachbit ubuntu-restricted-extras vlc rar unrar p7zip-full p7zip-rar inetutils-traceroute htop aptitude build-essential most cups-pdf poppler-utils nmap tcpdump tshark wireshark zenmap network-manager-openvpn-gnome ncdu gnome-tweak-tool xsensors lm-sensors neofetch nload iperf iperf3 openssh-server deepin-terminal
+apt install -y exfat-fuse gparted qbittorrent bleachbit ubuntu-restricted-extras vlc rar unrar p7zip-full p7zip-rar inetutils-traceroute htop aptitude build-essential most printer-driver-cups-pdf poppler-utils nmap tcpdump tshark wireshark zenmap network-manager-openvpn-gnome ncdu gnome-tweaks xsensors lm-sensors neofetch nload iperf iperf3 openssh-server deepin-terminal
 
 # Register deepin terminal
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/deepin-terminal 50

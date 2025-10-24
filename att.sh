@@ -8,6 +8,7 @@ sudo cat <<EOF >> /etc/custom_scripts/att.sh
 sudo apt update --allow-releaseinfo-change
 sudo apt full-upgrade -y
 sudo apt autoremove -y
+sudo snap refresh
 
 EOF
 
